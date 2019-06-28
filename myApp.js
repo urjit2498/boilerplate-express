@@ -12,7 +12,7 @@ var app = express();
 console.log("Hello World");
 
 /** 2) A first working Express Server */
-
+app.listen(process.env.PORT || 3000 );
 
 /** 3) Serve an HTML file */
 
